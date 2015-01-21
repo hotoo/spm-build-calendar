@@ -1,0 +1,27 @@
+{
+  "name": "tmp",
+  "version": "0.0.0",
+  "description": "",
+  "keywords": [],
+  "homepage": "",
+  "author": "hotoo <hotoo.cn@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "bugs": {
+    "url": ""
+  },
+  "licenses": "MIT",
+  "spm": {
+    "main": "index.js",
+    "output": [
+      "index.js"
+    ],
+    "buildArgs": "--include standalone",
+    "dependencies": {
+      "arale-calendar": "1.1.2",
+      "import-style": "1.0.0"
+    }
+  }
+}
